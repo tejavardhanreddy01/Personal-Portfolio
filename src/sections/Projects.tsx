@@ -14,9 +14,9 @@ const portfolioProjects = [
     year: "2024",
     title: "Patriot Web Redesign",
     results: [
-      { title: "Improved usability and accessibility with React and Material-UI" },
-      { title: "Achieved compliance with WCAG standards" },
-      { title: "Enhanced user satisfaction by 35% through usability testing" },
+      { title: "Improved usability" },
+      { title: "Achieved WCAG compliance" },
+      { title: "Boosted user satisfaction by 35%" },
     ],
     link: "https://patriot-web-redesign-production.up.railway.app/",
     image: patriotWebLandingPage,
@@ -26,9 +26,10 @@ const portfolioProjects = [
     year: "2024",
     title: "Campus Survey Application",
     results: [
-      { title: "Built a full-stack survey platform using Angular and Spring Boot" },
-      { title: "Optimized performance with AWS EC2 and S3 integration" },
-      { title: "Focused on form validation and dynamic routing" },
+      { title: "Built using Angular & Spring Boot" },
+      { title: "AWS EC2 & S3 optimization" },
+      { title: "Form validation & routing" },
+
     ],
     link: "https://github.com/orgs/Campus-Survey-Project/repositories", // Replace with actual project link if available
     image: lightSaasLandingPage, // Replace with a relevant image variable or path
@@ -38,9 +39,10 @@ const portfolioProjects = [
     year: "2022",
     title: "OCE Platform Enhancements",
     results: [
-      { title: "Reduced system errors by 30% through feature migration" },
-      { title: "Boosted system performance by 20%" },
-      { title: "Automated manual processes, saving 12 hours per week" },
+      { title: "30% error reduction" },
+      { title: "20% performance boost" },
+      { title: "Saved 12 hours weekly" },
+
     ],
     //link: "https://www.linkedin.com/in/teja/", // Replace with actual project link if available
     image: aiStartupLandingPage, // Replace with a relevant image variable or path
@@ -55,8 +57,11 @@ export const ProjectsSection = () => {
         <SectionHeader eyebrow="Real-world Results" title="Featured Projects" description="See how i transformed concepts into engaging digital experience" />
 
         <div className="mt-10 md:mt-20 flex flex-col gap-20">
-          {portfolioProjects.map((project) => (
-            <Card key={project.title} className=" px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20">
+          {portfolioProjects.map((project, projectIndex) => (
+            <Card key={project.title} className=" px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky"
+            style={{
+              top: `calc(64px + ${projectIndex * 40}px`,
+            }}>
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">
                   <div className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest text-sm text-transparent bg-clip-text">
