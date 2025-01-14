@@ -34,25 +34,25 @@ const portfolioProjects = [
     link: "https://github.com/orgs/Campus-Survey-Project/repositories", // Replace with actual project link if available
     image: lightSaasLandingPage, // Replace with a relevant image variable or path
   },
-  {
-    company: "IQVIA",
-    year: "2022",
-    title: "OCE Platform Enhancements",
-    results: [
-      { title: "30% error reduction" },
-      { title: "20% performance boost" },
-      { title: "Saved 12 hours weekly" },
+  // {
+  //   company: "IQVIA",
+  //   year: "2022",
+  //   title: "OCE Platform Enhancements",
+  //   results: [
+  //     { title: "30% error reduction" },
+  //     { title: "20% performance boost" },
+  //     { title: "Saved 12 hours weekly" },
 
-    ],
-    //link: "https://www.linkedin.com/in/teja/", // Replace with actual project link if available
-    image: aiStartupLandingPage, // Replace with a relevant image variable or path
-  },
+  //   ],
+  //   //link: "https://www.linkedin.com/in/teja/", // Replace with actual project link if available
+  //   image: aiStartupLandingPage, // Replace with a relevant image variable or path
+  // },
 ];
 
 
 export const ProjectsSection = () => {
   return (
-    <section className="pb-16 lg:py-24">
+    <section id="projects" className="pb-16 lg:py-24">
       <div className="container">
         <SectionHeader eyebrow="Real-world Results" title="Featured Projects" description="See how i transformed concepts into engaging digital experience" />
 
@@ -82,7 +82,7 @@ export const ProjectsSection = () => {
                   </ul>
                   <a href={project.link}>
                     <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
-                      <span>Visit Live Site</span>
+                      <span>Visit Project</span>
                       <ArrowUpRightIcon className="size-4" />
                     </button>
                   </a>

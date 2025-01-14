@@ -85,7 +85,7 @@ const hobbies = [
 export const AboutSection = () => {
   const constraintRef = useRef(null);
   return (
-    <div className="py-20 lg:py-28">
+    <div id="about" className="py-20 lg:py-28">
       <div className="container">
         <SectionHeader
           eyebrow="About Me"
@@ -94,7 +94,7 @@ export const AboutSection = () => {
         <div className="mt-20 flex flex-col gap-8">
           <div className="grid grid-cols-1 gap-8 md:grid md:grid-cols-5 lg:grid-cols-3">
           <Card className="h-[320px] md:col-span-2 lg:col-span-1">
-            <CardHeader title="My Reads" description="Explore the books shaping my perspectives." />
+            <CardHeader title="My Reads" description="Small habits lead to transformative change." />
             <div className="w-40 mx-auto mt-2 md:mt-0">
               <Image src={bookImage} alt="Book cover" />
             </div>
