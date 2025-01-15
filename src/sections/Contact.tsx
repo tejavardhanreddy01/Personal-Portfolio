@@ -18,7 +18,7 @@ export const ContactSection = () => {
                 {'Let\'s create something amazing together'}
               </h2>
               <p className="text-sm md:text-base mt-2">
-              Excited to bring your next project to life. Let's connect and collaborate!
+              {'Excited to bring your next project to life. Let\'s connect and collaborate!'}
               </p>
               <p className="text-sm md:text-base mt-2">
               Yep, still working on this portfolio. Progress is happening... slowly but surely!
