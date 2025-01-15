@@ -31,8 +31,8 @@ const portfolioProjects = [
       { title: "Form validation & routing" },
 
     ],
-    link: "https://github.com/orgs/Campus-Survey-Project/repositories", // Replace with actual project link if available
-    image: lightSaasLandingPage, // Replace with a relevant image variable or path
+    link: "https://github.com/orgs/Campus-Survey-Project/repositories", 
+    image: lightSaasLandingPage, 
   },
   // {
   //   company: "IQVIA",
@@ -44,7 +44,7 @@ const portfolioProjects = [
   //     { title: "Saved 12 hours weekly" },
 
   //   ],
-  //   //link: "https://www.linkedin.com/in/teja/", // Replace with actual project link if available
+  //   link: "https://www.linkedin.com/in/teja/", 
   //   image: aiStartupLandingPage, // Replace with a relevant image variable or path
   // },
 ];
@@ -54,7 +54,7 @@ export const ProjectsSection = () => {
   return (
     <section id="projects" className="pb-16 lg:py-24">
       <div className="container">
-        <SectionHeader eyebrow="Real-world Results" title="Featured Projects" description="See how i transformed concepts into engaging digital experience" />
+        <SectionHeader eyebrow="Learning, Building, Growing" title="Featured Projects" description="See how i transformed concepts into engaging digital experience" />
 
         <div className="mt-10 md:mt-20 flex flex-col gap-20">
           {portfolioProjects.map((project, projectIndex) => (
