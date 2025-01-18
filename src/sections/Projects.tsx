@@ -2,7 +2,7 @@ import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg"
 import patriotWebLandingPage from "@/assets/images/patriot-web-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
+import campusSurveyLandingPage from "@/assets/images/light-saas-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import grainImage from '@/assets/images/grain.jpg';
 import { SectionHeader } from "@/components/SectionHeader";
@@ -32,7 +32,7 @@ const portfolioProjects = [
 
     ],
     link: "https://github.com/orgs/Campus-Survey-Project/repositories", 
-    image: lightSaasLandingPage, 
+    image: campusSurveyLandingPage, 
   },
   // {
   //   company: "IQVIA",
