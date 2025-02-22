@@ -6,7 +6,10 @@ import bookImage from "@/assets/images/book-cover.png";
 import JavascriptIcon from "@/assets/icons/square-js.svg";
 import HTMLIcon from "@/assets/icons/html5.svg";
 import CssIcon from "@/assets/icons/css3.svg";
+import MongodbIcon from "@/assets/icons/mongodb.svg";
+import ExpressIcon from "@/assets/icons/express.svg";
 import ReactIcon from "@/assets/icons/react.svg";
+import NodeIcon from "@/assets/icons/nodejs.svg";
 import ChromeIcon from "@/assets/icons/chrome.svg";
 import GithubIcon from "@/assets/icons/github.svg";
 import mapImage from "@/assets/images/map.png";
@@ -30,8 +33,20 @@ const toolboxItems = [
     iconType: CssIcon,
   },
   {
+    title: 'MongoDB',
+    iconType: MongodbIcon,
+  },
+  {
+    title: 'Express.js',
+    iconType: ExpressIcon,
+  },
+  {
     title: 'React',
     iconType: ReactIcon,
+  },
+  {
+    title: 'Node.js',
+    iconType: NodeIcon,
   },
   {
     title: 'Chrome',
@@ -41,6 +56,7 @@ const toolboxItems = [
     title: 'Github',
     iconType: GithubIcon,
   },
+  
 ];
 
 const hobbies = [
